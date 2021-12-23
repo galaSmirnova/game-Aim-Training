@@ -101,4 +101,8 @@ h1 {
   cursor: pointer;
 }
 
-/* linear-gradient(90deg, #16D9E3 0%, #30C7EC 47%, #46AEF7 100%) */
+@media (max-width: 480px) {
+  .board {
+    width: 80%;
+  }
+}
